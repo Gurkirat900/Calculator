@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(42, 41, 41);
+    width: 95vw;
+    height:100vh;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    margin: 5px 3px;
+    position: relative;
+}
+.button{
+    padding: 12px 14px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 20px;
+    border: solid;
+}
+.button:hover{
+    opacity: 0.8;
+}
+#clear{
+    width: 87px;
+}
